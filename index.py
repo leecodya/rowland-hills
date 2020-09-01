@@ -11,6 +11,14 @@ def home():
 def about():
     return render_template("about.html", name=business_name)
 
+@app.route("/gallery")
+def gallery():
+    return render_template("gallery.html", name=business_name)
+
+@app.route("/services")
+def services():
+    return render_template("services.html", name=business_name)
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html", name=business_name)
