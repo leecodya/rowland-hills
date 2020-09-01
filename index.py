@@ -9,7 +9,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "About Page"
+    return render_template("about.html", name=business_name)
 
 @app.route("/contact")
 def contact():
