@@ -1,10 +1,11 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 
 app = Flask(__name__)
+business_name = "Rowland Hills Events"
 
 @app.route("/")
 def home():
-    return "Home page"
+    return render_template("home.html", name=business_name)
 
 @app.route("/about")
 def about():
@@ -12,7 +13,7 @@ def about():
 
 @app.route("/contact")
 def contact():
-    return redirect(url_for("about"))
+    return "Contact Page"
 
 if __name__ == "__main__":
     app.run(debug=True)
