@@ -24,4 +24,4 @@ def contact():
     return render_template("contact.html", name=business_name)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
