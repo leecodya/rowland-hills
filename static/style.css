@@ -1,6 +1,13 @@
 .myBackground{
-    background-color: #FDEFE6;
+    background-color: #f9cd9f;
 }
 .myBackground2{
-    background-color: #F7CAAC;
+    background-color: #faece9;
+}
+.brown-text{
+    color: #734933 !important;
+    font-weight: bolder;
+}
+.right-border{
+    border-right: black solid 3px;
 }
