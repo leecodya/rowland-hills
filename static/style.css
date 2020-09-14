@@ -4,10 +4,18 @@
 .myBackground2{
     background-color: #faece9;
 }
+.primary-text{
+    color: #f9cd9f;
+}
 .brown-text{
     color: #734933 !important;
     font-weight: bolder;
 }
 .right-border{
     border-right: black solid 3px;
+}
+.home-banner{
+    background: url("../static/banner.jpg") no-repeat;
+    background-size:100%;
+    padding: 15em;
 }
