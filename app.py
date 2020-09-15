@@ -24,6 +24,10 @@ def services():
 def contact():
     return render_template("contact.html", name=business_name, moto=moto)
 
+@app.route("/event-inquiry")
+def event_inquiry():
+    return render_template("event-inquiry.html", name=business_name, moto=moto)
+
 @app.route("/<some_page>")
 def invalid_page(some_page):
     return render_template("404.html", name=business_name, moto=moto)
