@@ -2,5 +2,35 @@
 {% block title %}About Us{% endblock %}
 
 {% block content %}
-<h2>About Page</h2>
+<div class="sub-banner">
+    <h1 class="text-center primary-text" style="font-size: 2.5em; text-shadow: 3px 3px black;"><b>About Us</b></h1>
+</div>
+<!-- Who We Are -->
+<div class="bg-white">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-6 text-center ">
+                <h1 class="brown-text"><u>Who We Are</u></h1>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem consectetur at necessitatibus quos excepturi. Architecto ipsum eum ex blanditiis modi explicabo molestiae dolores assumenda, dolorum itaque similique recusandae rem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae deleniti ea quia non odit velit omnis cum neque?</h5>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" class="mt-3 rounded img-fluid" style="width:300px; height: 200px; border: 3px solid black" alt="Staff Picture">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" class="mt-3 rounded img-fluid" style="width: 70%; border: 3px solid black;" alt="Staff Member">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" class="mt-3 rounded img-fluid" style="width: 70%; border: 3px solid black;" alt="Staff Member">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" class="mt-3 rounded img-fluid" style="width: 70%; border: 3px solid black;" alt="Staff Member">
+            </div>
+            <div class="col-md-3">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" class="mt-3 rounded img-fluid" style="width: 70%; border: 3px solid black;" alt="Staff Member">
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

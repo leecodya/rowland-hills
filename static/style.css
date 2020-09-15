@@ -23,3 +23,8 @@
     background-size:100%;
     padding: 16.5%;
 }
+.sub-banner{
+    background: url("../static/banner.jpg") no-repeat;
+    background-size:100%;
+    padding: 9%;
+}
