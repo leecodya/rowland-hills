@@ -2,5 +2,44 @@
 {% block title %}Photo Gallery{% endblock %}
 
 {% block content %}
-<h2>Photo Gallery Page</h2>
+<div class="sub-banner">
+    <h1 class="text-center primary-text" style="font-size: 2.5em; text-shadow: 3px 3px black;"><b>Photo Gallery</b></h1>
+</div>
+<div class="bg-white">
+    <div class="container p-5">
+        <div class="row p-3 text-center">
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+        </div>
+        <div class="row p-3 text-center">
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+        </div>
+        <div class="row p-3 text-center">
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='placeholder.png') }}" style="width:70%" class="img-fluid img-thumbnail" alt="Gallery Photo">
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
