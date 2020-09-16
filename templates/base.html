@@ -10,7 +10,7 @@
 
     <body class="myBackground2">
         <header>
-            <nav class="navbar navbar-expand-md myBackground navbar-light">
+            <nav class="navbar fixed-top navbar-expand-md myBackground navbar-light">
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,9 @@
             </nav>
         </header>
         <main>
-            {% block content %}{% endblock %}
+            <div style="padding-top: 3.53em;">
+                {% block content %}{% endblock %}
+            </div>
         </main>
         <footer class="myBackground pt-3">
             <div class="container p-3">
@@ -60,7 +62,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <p><strong>Created by: </strong>Cody Lee</p>
+                    <p><strong>Created by: </strong><a href="https://codyalee.com" target="_blank">Cody Lee</a></p>
                 </div>
             </div>
         </footer>
