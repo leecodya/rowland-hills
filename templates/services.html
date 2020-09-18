@@ -7,7 +7,64 @@
 </div>
 <div class="bg-white">
     <div class="container p-5">
-        <div class="row p-3"></div>
+        <div class="row text-center">
+            <h4 class="brown-text">Rowland Hills can adapt to any location in order to meet your needs! We can transform your backyard to the wedding of your dreams.! <i><u>No event is impossible!</u></i> We offer several packages for your convenience:</h4>        
+        </div>
+        <ul class="row nav nav-pills p-3" role="tablist">
+            <li class="col-md-4 nav-item text-center">
+                <a class="btn brownBackground rounded-circle p-4 mt-1" stlye="width:100%" data-toggle="pill" href="#all-inclusive">All Inclusive</a>
+            </li>
+            <li class="col-md-4 nav-item text-center">
+                <a class="btn brownBackground rounded-circle p-4 mt-1" stlye="width:100%" data-toggle="pill" href="#decor">Decor Only</a>
+            </li>
+            <li class="col-md-4 nav-item text-center">
+                <a class="btn brownBackground rounded-circle p-4 mt-1" stlye="width:100%" data-toggle="pill" href="#catering">Catering Only</a>
+            </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="all-inclusive" class="container tab-pane active"><br>
+                <h3 class="brown-text">All Inclusive:</h3>
+                <h5>We don't want you to worry about a thing. Show up and enjoy your day!</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Decor</li>
+                    <li class="list-group-item">Catering- Tables and Chairs</li>
+                    <li class="list-group-item">Open/Cash Bar</li>
+                    <li class="list-group-item">Photography</li>
+                    <li class="list-group-item">Clean Up</li>
+                    <li class="list-group-item">Bride/Groom Gift Package (Custom wine with your date and monogram and Custom built tray)</li>
+                    <li class="list-group-item">DJ/Music</li>
+                    <li class="list-group-item">Ordained Minister</li>
+                </ul>
+            </div>
+            <div id="decor" class="container tab-pane fade"><br>
+                <h3 class="brown-text">Decor Only:</h3>
+                <h5>We understand that decor is one of the most important elements when planning an event. it is in the photos, it's the first thing people see when they arrive. This is one thing that Rowland Hills loves to do the most, <strong>decorate!</strong></h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Props for events</li>
+                    <li class="list-group-item">If venue or catering does not supply table and chairs, we will! This will change the quote for Decor Package <strong>only</strong></li>
+                    <li class="list-group-item">Clean up</li>
+                </ul>
+            </div>
+            <div id="catering" class="container tab-pane fade"><br>
+                <h3 class="brown-text">Catering Only:</h3>
+                <h5>Who doesn't like food? We make sure we do what we can to set your event up with the best catered food around!</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Table and Chairs</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container p-5">
+    <div class="row pt-3 pb-4">
+        <div class="col-md-6">
+            <h1 class="brown-text"><u>Have An Event In Mind?</u></h1>
+            <h5>In order for us to provide the best service for your event, please complete the Event Inquiry:</h5>
+        </div>
+        <div class="col-md-6 text-center mt-5">
+            <a href="{{ url_for('event_inquiry') }}"><button class="btn myButton rounded-pill p-3 pl-5 pr-5">Event Inquiry</button></a>
+        </div>
     </div>
 </div>
 {% endblock %}
