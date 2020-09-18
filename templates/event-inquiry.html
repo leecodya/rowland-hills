@@ -7,7 +7,85 @@
 </div>
 <div class="bg-white">
     <div class="container p-5">
-        <div class="row p-3"></div>
+        <div class="row p-3 justify-content-center">
+            <div class="col-md-5">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">* Name:</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">* Phone:</label>
+                        <input type="phone" class="form-control" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">* Email address:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="venue">* Venue Chosen:</label>
+                        <select class="form-control" id="venue">
+                            <option>-- Select One --</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">* Budget:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">$</span>
+                            </div>
+                            <input type="number" class="form-control" id="budget" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">* Date of Event:</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments:</label><br>
+                        <textarea name="message" id="comments" style="width:100%" rows="5"></textarea><br>
+                        <button type="button" class="btn btn-outline-light" style="color:black !important" data-toggle="modal" data-target="#myModal">
+                            What do I put here?
+                        </button>                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">                                                
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <p>In the Comments section, please provide a few details of your venue; if it's outside, church, inside home. Also, if you know your theme or decor preference, please comment below. </p>
+                                        <p>Here are some decor themes if you are unsure of what to refer to in your preference:</p>
+                                        <ul> 
+                                            <li>Rustic</li>
+                                            <li>Romantic</li>
+                                            <li>Modern</li>
+                                            <li>Garden Willow</li>
+                                            <li>Vintage</li>
+                                            <li>Whimsical</li>
+                                            <li>Bohemian</li>
+                                            <li>Southern Inspired</li>
+                                            <li>Formal Tradition</li>
+                                            <li>Celestial</li>
+                                            <li>Musical</li>
+                                            <li>Tropical</li>
+                                            <li>Nautical</li>
+                                            <li>Holiday Events</li>
+                                        </ul>
+                                    </div>                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div><!-- End Modal -->
+                    </div>
+                    <button type="submit" class="btn brownBackground rounded-pill p-2 pl-5 pr-5">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}
