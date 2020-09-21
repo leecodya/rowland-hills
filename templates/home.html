@@ -37,11 +37,12 @@
         <h1 class="brown-text pt-4">Who We Are</h1>
     </div>
     <div class="row pt-5 pb-5">
-        <div class="col-md-6">
-            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit vel excepturi voluptatibus nobis et modi exercitationem quis repudiandae libero, officiis fuga? Dolorem eius laboriosam optio asperiores tempore. Beatae, debitis quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maxime impedit, optio, accusantium iure quos alias obcaecati consectetur corrupti explicabo dignissimos culpa ex! Iste amet numquam tempore consequuntur, similique quas?</h5>            
+        <div class="col-md-8">
+            <h4>Bridgett R. Hunt is the proud owner of {{ name }}. Mrs. Hunt has many years in the areas of decorating and planning events. Mrs. Hunt has finally put her dream to fruition by doing what she loves most: helping others create memories for a lifetime! Mrs. Hunt has built personal relationships with local vendors so that she can provide you with a personable and unique experience!</h4>             
+            <h4><a href="tel:478-397-3012">Give me a call</a> today for more information about what I can do to make your dream wedding or event come true! Or fill out our  <a href="{{ url_for('event_inquiry') }}">event inquiry</a> form for a quicker start to planning your event! </h4>           
         </div>
-        <div class="col-md-6 text-center">
-            <img src="{{ url_for('static', filename='placeholder.png') }}" class="rounded img-fluid" style="width:400px; height: 300px; border: 3px solid black" alt="Staff Picture">
+        <div class="col-md-4 text-center">
+            <img src="{{ url_for('static', filename='portrait.png') }}" class="rounded-circle img-fluid" style="border: 3px solid black" alt="Staff Picture">
         </div>
     </div>
 </div>
@@ -52,7 +53,7 @@
             <h1 class="brown-text pt-4">Testimonials</h1>
         </div>
         <div class="row justify-content-center pb-3">
-            <p>See what others have said about us!</p>
+            <h5>See what others have said!</h5>
         </div>
         <div class="row pt-5 pb-5">
             <div class="col-md-4 mt-2">
