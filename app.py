@@ -12,9 +12,9 @@ def home():
 def about():
     return render_template("about.html", name=business_name, moto=moto)
 
-@app.route("/gallery")
-def gallery():
-    return render_template("gallery.html", name=business_name, moto=moto)
+#@app.route("/gallery")
+#def gallery():
+#    return render_template("gallery.html", name=business_name, moto=moto)
 
 @app.route("/services")
 def services():
