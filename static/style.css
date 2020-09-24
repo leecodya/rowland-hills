@@ -9,11 +9,28 @@
     color: white;
 }
 .primary-text{
-    color: #f9cd9f;
+    color: #f9cd9f !important;
+    font-weight: bold;
+}
+.secondary-text{
+    color: #faece9 !important;
+    font-weight: bold;
 }
 .brown-text{
     color: #734933 !important;
     font-weight: bolder;
+}
+.brown-text-border{
+    text-shadow: -1px 1px 0 #734933,
+                1px 1px 0 #734933,
+                1px -1px 0 #734933,
+                -1px -1px 0 #734933;
+}
+.primary-text-border{
+    text-shadow: -1px 1px 0 #f9cd9f,
+                1px 1px 0 #f9cd9f,
+                1px -1px 0 #f9cd9f,
+                -1px -1px 0 #f9cd9f;
 }
 .right-border{
     border-right: black solid 3px;
@@ -31,4 +48,7 @@
 .myButton{
     background-color: #734933;
     color: white;
+}
+.serif{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
