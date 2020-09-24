@@ -4,6 +4,9 @@
 .myBackground2{
     background-color: #faece9;
 }
+.myBackground3{
+    background-color: #EBB6A5;
+}
 .brownBackground{
     background-color: #734933;
     color: white;
@@ -13,7 +16,7 @@
     font-weight: bold;
 }
 .secondary-text{
-    color: #faece9 !important;
+    color: #EBB6A5 !important;
     font-weight: bold;
 }
 .brown-text{
