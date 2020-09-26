@@ -11,6 +11,9 @@
     background-color: #734933;
     color: white;
 }
+.burgundyBackground{
+    background-color: #b4575c;
+}
 .primary-text{
     color: #f9cd9f !important;
     font-weight: bold;
