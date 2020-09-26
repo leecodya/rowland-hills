@@ -23,6 +23,10 @@
     color: #734933 !important;
     font-weight: bolder;
 }
+.burgundy-text{
+    color: #b4575c !important;
+    font-weight: bold;
+}
 .brown-text-border{
     text-shadow: -1px 1px 0 #734933,
                 1px 1px 0 #734933,
